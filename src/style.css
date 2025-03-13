@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home h1 {
+  font-size: 3rem;
+}
+
+#home p {
+  font-size: 1.5rem;
+}
+
+#home .btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#about,
+#skills,
+#projects,
+#contact {
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.text1 {
+  width: 800px;
+  text-align: center;
+}
+
+.circle-image {
+  width: 300px; /* Adjust the size of the image */
+  height: 300px; /* Set the height equal to the width for a perfect circle */
+  border-radius: 70%; /* This will make the image circular */
+  object-fit: cover; /* Ensures the image scales to fill the circle without distortion */
+}
+
+.text2 {
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* This creates a responsive grid */
+  gap: 20px; /* Spacing between the grid items */
+  margin: 0 auto;
+  max-width: 800px; /* Optional: limits the maximum width */
+}
+
+.skill-item {
+  background-color: #f4f4f4; /* Light background for each item */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item strong {
+  font-size: 1.1rem;
+  color: #333;
+}

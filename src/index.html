@@ -1,5 +1,114 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="John Michael Santos Portfolio - BSIT Student | Web Design & Photography"
+    />
+    <title>John Michael Santos - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="intro">
+        <img src="Kel.png" class="circle-image" />
+        <h1>Hi, I'm John Michael Santos</h1>
+        <p>I'm a BSIT Student with a passion for web design and photography.</p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <center>
+        <p class="text1">
+          I'm a student of Bachelor of Science in Information Technology (BSIT),
+          with a strong passion for designing websites and capturing beautiful
+          moments through photography. I love experimenting with new web design
+          tools, coding languages, and creating visually appealing websites. My
+          photography skills complement my design work, allowing me to create a
+          full creative experience.
+        </p>
+      </center>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <strong>Web Design:</strong> HTML, CSS, JavaScript, Responsive Design
+        </div>
+        <div class="skill-item">
+          <strong>Photography:</strong> Landscape, Portrait, Event Photography
+        </div>
+        <div class="skill-item">
+          <strong>Graphic Design:</strong> Adobe Photoshop, Illustrator
+        </div>
+        <div class="skill-item">
+          <strong>Web Development:</strong> HTML, JavaScript, CSS, PHP
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>Website Design 1</h3>
+          <img src="project1.jpg" alt="Project 1" />
+          <p>A clean, modern website design I created for a client.</p>
+        </div>
+        <div class="project">
+          <h3>Photography Portfolio</h3>
+          <img src="project2.jpg" alt="Photography Portfolio" />
+          <p>
+            Portfolio showcasing my photography skills in nature and portrait
+            photography.
+          </p>
+        </div>
+        <!-- Add more projects as you go -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you're interested in working with me or just want to say hello, feel
+        free to reach out!
+      </p>
+      <form
+        action="mailto:youremail@example.com"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required class="text2" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required class="text2"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 John Michael Santos. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
